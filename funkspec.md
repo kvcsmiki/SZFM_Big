@@ -40,7 +40,7 @@ A szoftvert kiválóan lehet alkalmazni például szakdolgozathoz, felmérésekh
 iskolai anonim szavazásokhoz.
 ### Szerepkörök:
 
--Kérdőív készítő: A kérdőív készítője létrehozhat, módosíthat vagy törölhet kérdőíveket, 
+- Kérdőív készítő: A kérdőív készítője létrehozhat, módosíthat vagy törölhet kérdőíveket, 
 megtekintheti azok eredményeit, statisztikai adatokat, mint például átlagot, móduszt, 
 mediánt, vagy diagramokat kérhet le és tekinthet meg. Az így kapott adatokat megoszthatja
 más felhasználókkal és nem felhasználókkal link vagy lementett kép formájában, és 
