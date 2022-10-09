@@ -39,7 +39,7 @@ ha google forms kérdőívet szeretne létrehozni,
 és egyes esetekben a kitöltőnek is rendelkeznie kell egy fiókkal.
 A létrehozó elküldi az URL-t a kitöltőnek.
 A létrehozó a kitöltések után megkapja a válaszokat.
-<img src="ábrák/jeluzlet.png"  width="800" height="550">
+<img src="ábrák/jelüzlet.png"  width="800" height="550">
 
 ## Igényelt üzleti folyamatok modellje
 A megrendelő szeretne egy regisztrációs felületet, ahol e-mail, felhasználónév és jelszó megadásával egy új felhasználót hozhat létre.
@@ -50,3 +50,13 @@ A kérdőív mentése után egy URL generálódik, amivel a kitöltők elérheti
 Kitöltés után az adatok megjelennek a kérdőívet létrehozó felhasználó profilján,
 a statisztikákkal együtt.
 ## Követelménylista
+
+|Modul        | ID |Név                    | v.|Kifejtés                              |
+|-------------|----|-----------------------|---|--------------------------------------|
+| Jogosultság | K1 | Bejelentkezési | 1.0 |A felhasználó az email címe és a jelszava segítségével bejelentkezhet. Ha a megadott e-mail cím vagy jelszó nem megfelelő, hiba üzenetet kap.|
+| Jogosultság | k2 | Regisztráció |1.0| A felhasználó e-mail cím és jelszó megadásával regisztrálhat. A jelszó titkosítva és az e-mail cím az adatbázisunkban tárolásra kerül. Ha valamelyik adat ezek közül hiányzik vagy nem megfelelő, arról a felhasználó értesítést kap. |
+| Jogosultság | k3 | Létrehozás | 1.0 | A regisztrált felhasználók kérdőíveket hozhatnak létre|
+| Felület | k4 | Bejelentkezés | 1.0 | A felhasználók itt tudnak belépni a rendszerbe|
+| Felület | k5 | Regisztráció | 1.0 | A felhasználók ezen a felület tudnak regisztrálni. |
+| Felület | K6 | Létrehozás | 1.0 |Ezen a felületen tudnak a felhasználók kérdőíveket létrehozni |
+| Felület | K7 | Kitöltés | 1.0 | Azok a felhasználók, akik megkapták az URL-t a kérdőívhez, ezen a felületen tudják kitölteni |
