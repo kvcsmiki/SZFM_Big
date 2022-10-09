@@ -1,7 +1,13 @@
 ## Funkcionális specifikáció
 
 ## Rendszer céljai és nem céljai
-
+A rendszer célja egy felhasználóbarát kérdőív létrehozó webalkalmazás.
+    - Emberek regisztálhatnak
+    - Bejelentkezhetnek
+    - Készíthetnek kérdőíveket
+    - Kitölthetnek kérdőíveket
+    - Megnézhetik az általuk létrehozott kérdőív kitöltési statisztikáit
+A rendszerünknek nem célja a Google Forms leváltása.
 ## Jelenlegi helyzet leírása
 
 ## Vágyálom rendszer leírása
