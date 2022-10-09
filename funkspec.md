@@ -54,6 +54,18 @@ Kitöltés után az adatok megjelennek a kérdőívet létrehozó felhasználó 
 a statisztikákkal együtt.
 ## Követelménylista
 
+
+|Modul        | ID |Név                    | v.|Kifejtés                              |
+|-------------|----|-----------------------|---|--------------------------------------|
+| Jogosultság | K1 | Bejelentkezési | 1.0 |A felhasználó az email címe és a jelszava segítségével bejelentkezhet. Ha a megadott e-mail cím vagy jelszó nem megfelelő, hiba üzenetet kap.|
+| Jogosultság | k2 | Regisztráció |1.0| A felhasználó e-mail cím és jelszó megadásával regisztrálhat. A jelszó titkosítva és az e-mail cím az adatbázisunkban tárolásra kerül. Ha valamelyik adat ezek közül hiányzik vagy nem megfelelő, arról a felhasználó értesítést kap. |
+| Jogosultság | k3 | Létrehozás | 1.0 | A regisztrált felhasználók kérdőíveket hozhatnak létre|
+| Felület | k4 | Bejelentkezés | 1.0 | A felhasználók itt tudnak belépni a rendszerbe|
+| Felület | k5 | Regisztráció | 1.0 | A felhasználók ezen a felület tudnak regisztrálni. |
+| Felület | K6 | Létrehozás | 1.0 |Ezen a felületen tudnak a felhasználók kérdőíveket létrehozni |
+| Felület | K7 | Kitöltés | 1.0 | Azok a felhasználók, akik megkapták az URL-t a kérdőívhez, ezen a felületen tudják kitölteni |
+
+
 ## Használati esetek
 A szoftvert kiválóan lehet alkalmazni például szakdolgozathoz, felmérésekhez, munkahelyi vagy
 iskolai anonim szavazásokhoz.
