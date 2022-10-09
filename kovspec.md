@@ -8,7 +8,7 @@ megjelenítését. Emellett az itt elkészült statisztikákat nem tudjuk megosz
 behivatkozni, ha valaki például szakdolgozathoz szeretné felhasználni az adatokat.
 Emellett nincs lehetőség interaktív, akár százalékos válaszok megadására, a kérdőívet
 tervező felhasználó lehetőségei korlátozottak. 
-Idősebb felhasználók számára bonyolult a mostani rendszer, többen preferálják a 
+Idősebb felhasználók számára bonyolult a mostani rendszer, többen preferálják a
 drag'n'drop módszert.
 Emellett a jelenlegi módszer a Google tulajdona, kitöltéséhez Google által üzemltetett
 Gmail fiók szükséges, amelyet nem minden felhasználó preferál.
