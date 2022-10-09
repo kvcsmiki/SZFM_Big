@@ -16,6 +16,13 @@ Gmail fiók szükséges, amelyet nem minden felhasználó preferál.
 ## Vágyálom rendszer leírása
 
 ## Rendszerre vonatkozó törvények, rendeletek, szabványok, ajánlások
+A rendszerbe való belépéshez e-mail címre és jelszóra lesz szüksége a felhasználónak,
+ezért ezek megfelelő tárolására, kezelésére vonatkozó GDPR szabályozását kell követnünk
+emellett a jelszavak tárolására ajánlott az úgynevezett Hash-elt verzió tárolása.
+A felhasználó által megadott válaszokat bizalmasan kezeljük, a kérdőívet létrehozó
+felhasználó számára sem jeleníthetjük meg, hogy mely felhasználó milyen kérdésekre
+milyen választ adott, így a kérdőívek teljesen anonimak maradhatnak.
+Emellett gondoskodnunk kell az adatok és az érintett kapcsolatának helyreállíthatatlanságáról.
 
 ## Jelenlegi üzleti folyamat modellje
 
