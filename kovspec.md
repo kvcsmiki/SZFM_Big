@@ -8,7 +8,7 @@ megjelenítését. Emellett az itt elkészült statisztikákat nem tudjuk megosz
 behivatkozni, ha valaki például szakdolgozathoz szeretné felhasználni az adatokat.
 Emellett nincs lehetőség interaktív, akár százalékos válaszok megadására, a kérdőívet
 tervező felhasználó lehetőségei korlátozottak. 
-Idősebb felhasználók számára bonyolult a mostani rendszer, többen preferálják a 
+Idősebb felhasználók számára bonyolult a mostani rendszer, többen preferálják a
 drag'n'drop módszert.
 Emellett a jelenlegi módszer a Google tulajdona, kitöltéséhez Google által üzemltetett
 Gmail fiók szükséges, amelyet nem minden felhasználó preferál.
@@ -47,18 +47,16 @@ A regisztrációs felülettel egybekötött a bejelentkezési felület.
 Itt egy már regisztrált felhasználó e-mail, és jelszó megadásával tud bejelentkezni.
 Szükség van egy kérdőív létrehozó felületre, ahol az adott felhasználó saját kérdőíveket csinálhat.
 A kérdőív mentése után egy URL generálódik, amivel a kitöltők elérhetik és kitölthetik a kérdőívet.
-Kitöltés után az adatok megjelennek a kérdőívet létrehozó felhasználó profilján.
+Kitöltés után az adatok megjelennek a kérdőívet létrehozó felhasználó profilján,
 a statisztikákkal együtt.
-
 ## Követelménylista
 
 |Modul        | ID |Név                    | v.|Kifejtés                              |
 |-------------|----|-----------------------|---|--------------------------------------|
-| Jogosultság | 01 | Regisztráció | v1.0| A felhasználó e-mail cím és jelszó megadásával regisztrálhat |
-| Jogosultság | 02 | Bejelentkezés | v1.0 | A felhasználó a már korábban regisztrált e-mail cím, jelszó párossal tud bejelentkezni|
-| Jogosultság | 03 | Módosítás | v1.0| Kizárólag a kérdőív létrehozója módisíthatja a kérdőívet|
-| Jogosultság | 04 | Kitöltés | v1.0 | Kizárólag az töltheti ki a kérdőívet, aki a létrehozótól megkapta az URL-t|
-| Felület | 05 | Létrehozó felület | v1.0 | A regisztrált felhasználó ezen az oldalon hozhat létre kérdőíveket |
-| Felület | 06 | Kitöltő felület | v1.0 | A felhasználó ezen a felületen töltheti ki a már létrehozott kérdőíveket |
-| Feület | 07 | Statisztika | v1.0 | Ezen a felületen jelennek meg a kérdőívekből kinyert adatok/válaszok |
-
+| Jogosultság | K1 | Bejelentkezési | 1.0 |A felhasználó az email címe és a jelszava segítségével bejelentkezhet. Ha a megadott e-mail cím vagy jelszó nem megfelelő, hiba üzenetet kap.|
+| Jogosultság | k2 | Regisztráció |1.0| A felhasználó e-mail cím és jelszó megadásával regisztrálhat. A jelszó titkosítva és az e-mail cím az adatbázisunkban tárolásra kerül. Ha valamelyik adat ezek közül hiányzik vagy nem megfelelő, arról a felhasználó értesítést kap. |
+| Jogosultság | k3 | Létrehozás | 1.0 | A regisztrált felhasználók kérdőíveket hozhatnak létre|
+| Felület | k4 | Bejelentkezés | 1.0 | A felhasználók itt tudnak belépni a rendszerbe|
+| Felület | k5 | Regisztráció | 1.0 | A felhasználók ezen a felület tudnak regisztrálni. |
+| Felület | K6 | Létrehozás | 1.0 |Ezen a felületen tudnak a felhasználók kérdőíveket létrehozni |
+| Felület | K7 | Kitöltés | 1.0 | Azok a felhasználók, akik megkapták az URL-t a kérdőívhez, ezen a felületen tudják kitölteni |
