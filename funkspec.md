@@ -36,6 +36,20 @@ megkönnyítő, felhasználó számára olvashatóbbá tevő javaslatok összess
 ## Követelménylista
 
 ## Használati esetek
+A szoftvert kiválóan lehet alkalmazni például szakdolgozathoz, felmérésekhez, munkahelyi vagy
+iskolai anonim szavazásokhoz.
+### Szerepkörök:
+
+-Kérdőív készítő: A kérdőív készítője létrehozhat, módosíthat vagy törölhet kérdőíveket, 
+megtekintheti azok eredményeit, statisztikai adatokat, mint például átlagot, móduszt, 
+mediánt, vagy diagramokat kérhet le és tekinthet meg. Az így kapott adatokat megoszthatja
+más felhasználókkal és nem felhasználókkal link vagy lementett kép formájában, és 
+behivatkozhatja azokat. A kérdőív készítő nem szerkesztheti mások kérdőíveit, 
+de kitöltői szinten kitöltheti azokat. A kérdőív készítője kitöltheti a saját kérdőívét is.
+- Kitöltő: A kérdőív kitöltőnek nem kötelező regisztrálnia az alkalmazásba, enélkül is 
+szabadon kitölthet kérdőíveket. A kitöltő a kérdőívekhez valamilyen meghívás útján csatlakozhat,
+azokat módosítani, törölni nem tudja és eredményeiket sem láthatja a kérdőív készítő hozzájárulása
+nélkül.
 
 ## Képernyőtervek
 
