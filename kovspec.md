@@ -39,7 +39,7 @@ ha google forms kérdőívet szeretne létrehozni,
 és egyes esetekben a kitöltőnek is rendelkeznie kell egy fiókkal.
 A létrehozó elküldi az URL-t a kitöltőnek.
 A létrehozó a kitöltések után megkapja a válaszokat.
-<img src="ábrák/jeluzlet.png"  width="800" height="550">
+<img src="ábrák/jelüzlet.png"  width="800" height="550">
 
 ## Igényelt üzleti folyamatok modellje
 A megrendelő szeretne egy regisztrációs felületet, ahol e-mail, felhasználónév és jelszó megadásával egy új felhasználót hozhat létre.
@@ -47,6 +47,18 @@ A regisztrációs felülettel egybekötött a bejelentkezési felület.
 Itt egy már regisztrált felhasználó e-mail, és jelszó megadásával tud bejelentkezni.
 Szükség van egy kérdőív létrehozó felületre, ahol az adott felhasználó saját kérdőíveket csinálhat.
 A kérdőív mentése után egy URL generálódik, amivel a kitöltők elérhetik és kitölthetik a kérdőívet.
-Kitöltés után az adatok megjelennek a kérdőívet létrehozó felhasználó profilján,
+Kitöltés után az adatok megjelennek a kérdőívet létrehozó felhasználó profilján.
 a statisztikákkal együtt.
+
 ## Követelménylista
+
+|Modul        | ID |Név                    | v.|Kifejtés                              |
+|-------------|----|-----------------------|---|--------------------------------------|
+| Jogosultság | 01 | Regisztráció | v1.0| A felhasználó e-mail cím és jelszó megadásával regisztrálhat |
+| Jogosultság | 02 | Bejelentkezés | v1.0 | A felhasználó a már korábban regisztrált e-mail cím, jelszó párossal tud bejelentkezni|
+| Jogosultság | 03 | Módosítás | v1.0| Kizárólag a kérdőív létrehozója módisíthatja a kérdőívet|
+| Jogosultság | 04 | Kitöltés | v1.0 | Kizárólag az töltheti ki a kérdőívet, aki a létrehozótól megkapta az URL-t|
+| Felület | 05 | Létrehozó felület | v1.0 | A regisztrált felhasználó ezen az oldalon hozhat létre kérdőíveket |
+| Felület | 06 | Kitöltő felület | v1.0 | A felhasználó ezen a felületen töltheti ki a már létrehozott kérdőíveket |
+| Feület | 07 | Statisztika | v1.0 | Ezen a felületen jelennek meg a kérdőívekből kinyert adatok/válaszok |
+
