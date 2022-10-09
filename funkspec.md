@@ -44,6 +44,16 @@ megkönnyítő, felhasználó számára olvashatóbbá tevő javaslatok összess
 
 ## Jelenlegi üzleti folyamat modellje
 
+Jelenleg elősször is a felhasználónak regisztrálni kell egy google fiókot,
+ha google forms kérdőívet szeretne létrehozni,
+és egyes esetekben a kitöltőnek is rendelkeznie kell egy fiókkal.
+Ez az idősek számára már bonyolult lehet.
+A létrehozó elküldi az URL-t a kitöltőnek.
+A kitöltő megnyitja a kapott URL-t és a saját véleménye szerint kitölti azt,
+majd megnyomja a beküldés gombot.
+Ezt követően az adatok bekerülnek az adatbázisba,
+majd a A létrehozó a kitöltések után megkapja a válaszokat.
+
 ## Igényelt üzleti folyamatok modellje
 A megrendelő szeretne egy regisztrációs felületet, ahol e-mail, felhasználónév és jelszó megadásával egy új felhasználót hozhat létre.
 A regisztrációs felülettel egybekötött a bejelentkezési felület.
