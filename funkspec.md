@@ -54,6 +54,8 @@ majd megnyomja a beküldés gombot.
 Ezt követően az adatok bekerülnek az adatbázisba,
 majd a A létrehozó a kitöltések után megkapja a válaszokat.
 
+<img src="ábrák/jelüzlet.png"  width="800" height="550">
+
 ## Igényelt üzleti folyamatok modellje
 A megrendelő szeretne egy regisztrációs felületet, ahol e-mail, felhasználónév és jelszó megadásával egy új felhasználót hozhat létre.
 A regisztrációs felülettel egybekötött a bejelentkezési felület.
