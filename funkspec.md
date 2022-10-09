@@ -25,6 +25,9 @@ A felhasználó által megadott válaszokat bizalmasan kezeljük, a kérdőívet
 felhasználó számára sem jeleníthetjük meg, hogy mely felhasználó milyen kérdésekre
 milyen választ adott, így a kérdőívek teljesen anonimak maradhatnak.
 Emellett gondoskodnunk kell az adatok és az érintett kapcsolatának helyreállíthatatlanságáról.
+A rendszerre vonatkozik az adatbázisokra alkalmazott Harmadik Normálforma által meghatározott
+tervezési módszer is. Továbbá a felhaszálói felületet köti, a User Interface-k tervezését
+megkönnyítő, felhasználó számára olvashatóbbá tevő javaslatok összessége is.
 
 ## Jelenlegi üzleti folyamat modellje
 
