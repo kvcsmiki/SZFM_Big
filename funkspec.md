@@ -96,4 +96,7 @@ nélkül.
 
 ## Képernyőtervek
 
+<img src="Pictures/Login.png"  width="800" height="550">
+<img src="Pictures/Szerkezt.png"  width="800" height="550">
+
 ## Funkció - követelmény megfeleltetés
