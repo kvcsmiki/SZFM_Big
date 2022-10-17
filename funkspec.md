@@ -64,6 +64,8 @@ Szükség van egy kérdőív létrehozó felületre, ahol az adott felhasználó
 A kérdőív mentése után egy URL generálódik, amivel a kitöltők elérhetik és kitölthetik a kérdőívet.
 Kitöltés után az adatok megjelennek a kérdőívet létrehozó felhasználó profilján,
 a statisztikákkal együtt.
+
+//TODO folyamat modellje
 ## Követelménylista
 
 
