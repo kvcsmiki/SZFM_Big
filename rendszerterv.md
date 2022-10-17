@@ -46,5 +46,8 @@ A rendszerünknek nem célja a Google Forms leváltása.
 ## Tesztterv
 
 ## Telepítési terv
-
+A szoftver egy webszerveren fog működni, így a webes felületéhez csak egy böngészőre van szükség.
+Külön szoftvert nem kell telepíteni.
+A webszerverre közvetlenül az internetről kapcsolódnak rá a kliensek.
+Mobil és tablet eszközökön is elérhető, kezdetben nem reszponzív formában, de ez a későbbi verziókban változhat.
 ## Karbantartási terv
