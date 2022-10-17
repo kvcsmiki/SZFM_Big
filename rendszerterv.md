@@ -19,7 +19,22 @@ A rendszerünknek nem célja a Google Forms leváltása.
 - GDPR-nak való megfelelés, jelszavak titkosított tárolása
 - A kérdőívek kitöltésének biztosítása, regisztráció nélkül
 ## Funkcionális terv
-
+- Szerepkörök:
+    - Admin
+    - Felhasználó 
+    - Kitöltő
+- KITÖLTŐ:
+    - Tud kérdőíveket kitölteni, és azokat beküldeni
+    - Ezzel a szerepkörrel rendelkezik mindenki, aki nem regisztrál
+- FELHASZNÁLÓ:
+    - Ezzel a szerepkörrel rendelkezik az, aki regisztrál
+    - Tud kérdőíveket létrehozni
+    - Tud kérdőíveket kitölteni
+    - Hozzáfér az általa létrehozott kérdőív statisztikáihoz
+    - Tudja törölni az általa létrehozott kérdőívet
+- ADMIN:
+    - Rendelkezik minden felhasználói joggal
+    - Tud felhasználót törölni
 ## Fizikai környezet
 
 ## Architekturális terv
