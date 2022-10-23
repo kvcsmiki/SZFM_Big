@@ -64,6 +64,8 @@ Szükség van egy kérdőív létrehozó felületre, ahol az adott felhasználó
 A kérdőív mentése után egy URL generálódik, amivel a kitöltők elérhetik és kitölthetik a kérdőívet.
 Kitöltés után az adatok megjelennek a kérdőívet létrehozó felhasználó profilján,
 a statisztikákkal együtt.
+
+//TODO folyamat modellje
 ## Követelménylista
 
 
@@ -99,4 +101,9 @@ nélkül.
 <img src="Pictures/Login.png"  width="800" height="550">
 <img src="Pictures/Szerkezt.png"  width="800" height="550">
 
-## Funkció - követelmény megfeleltetés
+## Követelmény megfeleltetés
+    - A bejelentkezési felülettel megvalósul a K1 és K4 követelmény
+    - A regisztrációs felülettel megvalósul a K2 és K5 követelmény
+    - A felhasználó rendelkezik kérdőív létrehozó jogosultsággal (K3)
+    - A létrehozást egy felületen történik, ezzel megvalósul a K6 követelmény
+    - A kitöltéshez is egy külön felület tartozik (K7)
