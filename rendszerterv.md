@@ -57,11 +57,6 @@ Nincsenek megvásárolt komponenseink.
 
 ## Architekturális terv
 
-A Webes felület főként HTML, CSS, és Javascript nyelven fog készülni.
-Ezeket igyekszünk külön fileokba írni.
-A backendben Springboot-ot és MySQL adatbázist fogunk használni.
-A Springboot kommumnikál az adatbázissal, adatot kér vagy küld neki,
-a frontend kommunikál a Springboottal, adatot kér vagy küld.
 
 ## Adatbázis terv
 Az adatbázisban minden form-nak külön, megfelelő adatbázis hátteret kell biztonsítanunk.
@@ -72,6 +67,12 @@ Erre főként az elkövetkező statisztikák megfelelő kiértékelése végett 
 <img src="ábrák/adatb.png"  width="800" height="550">
 
 ## Implementációs terv
+
+A Webes felület főként HTML, CSS, és Javascript nyelven fog készülni.
+Ezeket igyekszünk külön fileokba írni.
+A backendben Springboot-ot és MySQL adatbázist fogunk használni.
+A Springboot kommumnikál az adatbázissal, adatot kér vagy küld neki,
+a frontend kommunikál a Springboottal, adatot kér vagy küld.
 
 ## Tesztterv
 A tesztelés célja a rendszer és komponenseinek funkcionalitásának teljes vizsgálata és tesztelése,
