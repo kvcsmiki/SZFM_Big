@@ -76,6 +76,12 @@ A keretrendszer származik harmadik féltől.
     - A frontend és a keretrendszer együttműködését is a JavaScripttel szolgáltatjuk
 
 ## Adatbázis terv
+Az adatbázisban minden form-nak külön, megfelelő adatbázis hátteret kell biztonsítanunk.
+Ennek oka, hogy a különböző form-ok különböző mennyiségú és bemenetű válaszokat (számot, szöveget vagy eldöntendő választ)
+várnak, ezért nem lehetséges egyetlen sémára létrehozni őket.
+Erre főként az elkövetkező statisztikák megfelelő kiértékelése végett van szükség.
+
+<img src="ábrák/adatb.png"  width="800" height="550">
 
 ## Implementációs terv
 
