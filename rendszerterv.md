@@ -49,9 +49,14 @@ a statisztikákkal együtt.
 
 Az alkalmazás web platformra készül, elérhető lesz hordoható eszközökön is.
 Pl: okostelefon, táblagép stb..
-Nincsenek megvásárolt komponenseink.
+Nincsenek megvásárolt komponenseink,
+más fejlesztőktől nem vettünk át projektelemeket.
+A keretrendszer származik harmadik féltől.
 - Fejlessztői eszközök:
     - Visual studio code
+    - HTML
+    - CSS
+    - Java
     - Springboot
     - SQLDeveloper
 
