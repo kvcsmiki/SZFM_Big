@@ -57,6 +57,12 @@ Nincsenek megvásárolt komponenseink.
 
 ## Architekturális terv
 
+A Webes felület főként HTML, CSS, és Javascript nyelven fog készülni.
+Ezeket igyekszünk külön fileokba írni.
+A backendben Springboot-ot és MySQL adatbázist fogunk használni.
+A Springboot kommumnikál az adatbázissal, adatot kér vagy küld neki,
+a frontend kommunikál a Springboottal, adatot kér vagy küld.
+
 ## Adatbázis terv
 
 ## Implementációs terv
