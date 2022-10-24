@@ -61,17 +61,19 @@ A keretrendszer származik harmadik féltől.
     - SQLDeveloper
 
 ## Architekturális terv
-Backend: 
-A rendszerhez szükség van egy adatbázis szerverre, ebben az esetben
-MySql-t használunk. A kliens oldali programokat Springboottal szolgáljuk ki,
-ami egy Java alapú keretrendszer.
-Ez csatlakozik az adatbázishoz, és ez kommunikál vele.
 
-Web kliens:
-A web alkalmazás Springboot keretrendszer segítségével készül el,
-a látványért HTML és CSS felel.
-A gombok használatát JavaScripttel oldjuk meg,
-ez fogja meghívni a backend funkcióit.
+- Backend:
+    - A rendszerhez szükség van egy adatbázis szerverre, ebben az esetben MySql-t használunk.
+    - A kliens oldali programokat Springboottal szolgáljuk ki, ami Java alapú
+    - Az adatbázis kommunikációt a keretrendszer szolgálja ki (Springboot)
+    - A keretrendszer adatot küld, vagy kér az adatbázistól
+
+
+- Web kliens:
+    - A web alkalmazás Springboot keretrendszer segítségével készül el
+    - A látványért HTML és CSS felel.
+    - A gombok használatát JavaScripttel oldjuk meg
+    - A frontend és a keretrendszer együttműködését is a JavaScripttel szolgáltatjuk
 
 ## Adatbázis terv
 
