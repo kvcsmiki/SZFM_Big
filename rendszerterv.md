@@ -47,6 +47,13 @@ a statisztikákkal együtt.
     - Tud felhasználót törölni
 ## Fizikai környezet
 
+Az alkalmazás web platformra készül, elérhető lesz hordoható eszközökön is.
+Pl: okostelefon, táblagép stb..
+Nincsenek megvásárolt komponenseink.
+- Fejlessztői eszközök:
+    - Visual studio code
+    - Springboot
+    - SQLDeveloper
 
 ## Architekturális terv
 
