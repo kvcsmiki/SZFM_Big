@@ -56,7 +56,17 @@ Nincsenek megvásárolt komponenseink.
     - SQLDeveloper
 
 ## Architekturális terv
+Backend: 
+A rendszerhez szükség van egy adatbázis szerverre, ebben az esetben
+MySql-t használunk. A kliens oldali programokat Springboottal szolgáljuk ki,
+ami egy Java alapú keretrendszer.
+Ez csatlakozik az adatbázishoz, és ez kommunikál vele.
 
+Web kliens:
+A web alkalmazás Springboot keretrendszer segítségével készül el,
+a látványért HTML és CSS felel.
+A gombok használatát JavaScripttel oldjuk meg,
+ez fogja meghívni a backend funkcióit.
 
 ## Adatbázis terv
 
