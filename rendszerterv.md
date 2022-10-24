@@ -9,6 +9,16 @@ A rendszer célja egy felhasználóbarát kérdőív létrehozó webalkalmazás.
     - Megnézhetik az általuk létrehozott kérdőív kitöltési statisztikáit
 A rendszerünknek nem célja a Google Forms leváltása.
 ## Üzleti folyamatok modellje
+A megrendelő szeretne egy regisztrációs felületet, ahol e-mail, felhasználónév és jelszó megadásával egy új felhasználót hozhat létre.
+A regisztrációs felülettel egybekötött a bejelentkezési felület.
+Itt egy már regisztrált felhasználó e-mail, és jelszó megadásával tud bejelentkezni.
+Szükség van egy kérdőív létrehozó felületre, ahol az adott felhasználó saját kérdőíveket csinálhat.
+A kérdőív mentése után egy URL generálódik, amivel a kitöltők elérhetik és kitölthetik a kérdőívet.
+Kitöltés után az adatok megjelennek a kérdőívet létrehozó felhasználó profilján,
+a statisztikákkal együtt.
+
+<img src="ábrák/uzfolymodel.jpg"  width="800" height="550">
+
 
 ## Követelmények
 - Felhasználóbarát környezet létrehozása kérdőívek készítéséhez
@@ -36,6 +46,7 @@ A rendszerünknek nem célja a Google Forms leváltása.
     - Rendelkezik minden felhasználói joggal
     - Tud felhasználót törölni
 ## Fizikai környezet
+
 
 ## Architekturális terv
 
