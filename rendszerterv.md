@@ -58,3 +58,21 @@ A webszerverre közvetlenül az internetről kapcsolódnak rá a kliensek.
 Mobil és tablet eszközökön is elérhető, kezdetben nem reszponzív formában, de ez a későbbi verziókban változhat.
 
 ## Karbantartási terv
+Az alkalmazás folyamatos és megfelelő működése érdekében létfontosságúvá válik a megfelelő karbantartás.
+Ez magába foglalja a User reportokban dokumentált hibák elhárítását, a felbukkanó és megújuló
+felhasználói igények kielégítését és a technológiák fejlődésével felmerülő lehetőségek
+beépítése és kiaknázása és minél kreatívabb és felhasználóbarátabb beépítése a programba.
+Mivel a program webes felületen fut, így nem szükséges minden kiadott Android és IOS rendszerre
+megfigyelnünk a kompatibilitást, de érdemes bizonyos verziónként ellenőriznünk azokat.
+Emellett szükséges az alkalmazás mögött futó adatbázis karbantartása, tisztítása és bővítése.
+Az adatok megfelelő mentéséről és azok biztonságos tárolásáról is meg kell győződnünk és fenn kell tartanunk.
+
+### Karbantartás
+Corrective Maintenance: A felhasználók által felfedezett és "user reportban"
+elküldött hibák kijavítása.
+Adaptive Maintenance: A program naprakészen tartása és finomhangolása.
+Perfective Maintenance: A szoftver hosszútávú használata érdekében végzett
+módosítások, új funkciók, a szoftver teljesítményének és működési
+megbízhatóságának javítása.
+Preventive Maintenance: Olyan problémák elhárítása, amelyek még nem
+tűnnek fontosnak, de később komoly problémákat okozhatnak
