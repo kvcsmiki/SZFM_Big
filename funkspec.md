@@ -65,7 +65,8 @@ A kérdőív mentése után egy URL generálódik, amivel a kitöltők elérheti
 Kitöltés után az adatok megjelennek a kérdőívet létrehozó felhasználó profilján,
 a statisztikákkal együtt.
 
-//TODO folyamat modellje
+<img src="ábrák/uzfolymodel.jpg"  width="800" height="550">
+
 ## Követelménylista
 
 
