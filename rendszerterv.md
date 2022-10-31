@@ -90,7 +90,6 @@ Ezeket igyekszünk külön fileokba írni.
 A backendben Springboot-ot és MySQL adatbázist fogunk használni.
 A Springboot kommumnikál az adatbázissal, adatot kér vagy küld neki,
 a frontend kommunikál a Springboottal, adatot kér vagy küld.
-
 ## Tesztterv
 A tesztelés célja a rendszer és komponenseinek funkcionalitásának teljes vizsgálata és tesztelése,
 az üzleti szolgáltatások verifikálása és a megfelelő felhasználói élmény felderítése.
