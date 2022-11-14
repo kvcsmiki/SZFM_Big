@@ -10,6 +10,10 @@ app.secret_key = '42069'
 def index():
     return render_template('start.html')
 
+@app.route('/logout')
+def logout():
+    return redirect("/")
+
 
 @app.route('/add_user', methods=['POST'])
 def new_user():
