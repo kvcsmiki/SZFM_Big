@@ -10,6 +10,10 @@ app.secret_key = '42069'
 def index():
     return render_template('start.html')
 
+@app.route('/back')
+def back():
+    return render_template('main.html')
+
 @app.route('/logout')
 def logout():
     return redirect("/")
