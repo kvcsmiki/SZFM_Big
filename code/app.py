@@ -13,7 +13,9 @@ def index():
 @app.route('/logout')
 def logout():
     return redirect("/")
-
+@app.route('/create')
+def create():
+    return render_template('create.html')
 
 @app.route('/add_user', methods=['POST'])
 def new_user():
