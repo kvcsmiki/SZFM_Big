@@ -40,6 +40,15 @@ button:hover
 {
     transform: scale(1.1) perspective(0.1px)
 }
+#border{
+    width: 15em;
+    height: 1em;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom:20px;
+    padding:0;
+    border-bottom: solid  black;
+}
 
 #buttons
 {
@@ -48,7 +57,6 @@ button:hover
     margin-right: 20px;
     margin-bottom:20px;
     padding:0;
-    border-bottom:solid  black;
     align-items: center;
     text-align: center;
     display: flex;
