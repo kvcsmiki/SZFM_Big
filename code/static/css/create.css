@@ -1,0 +1,58 @@
+
+body
+{
+    background: rgb(58,128,180);
+    background: linear-gradient(90deg, rgba(58,128,180,1) 0%, rgba(29,253,220,1) 28%, rgba(69,252,179,1) 100%);
+}
+
+[id^="question_"]
+{
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: white;
+    width: 500px;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+   
+}
+
+button
+{
+
+    margin-top: 5px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    font-weight: bold;
+    color: #3aa7b1;
+}
+
+button:hover
+{
+    transform: scale(1.1) perspective(0.1px)
+}
+
+#buttons
+{
+    max-width: 20%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom:20px;
+    padding:0;
+    border-bottom:solid  black;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    float: left;
+
+}
