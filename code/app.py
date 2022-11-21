@@ -1,4 +1,4 @@
-from crypt import methods
+#from crypt import methods
 import sqlite3 as sql
 import hashlib as hl
 from flask import Flask, g, render_template, request, session, redirect
