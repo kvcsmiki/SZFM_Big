@@ -29,7 +29,7 @@ function newQuestion(type)
     newDiv.setAttribute("id", "question_"+counter);
     document.body.appendChild(newDiv);
     var label = document.createElement("label");
-    label.innerHTML = "Kérdés:";
+    label.innerHTML = (counter+1)+". Kérdés:";
     switch(type){
         case "text": label.innerHTML +=" (szöveges)"; break;
         case "yesno": label.innerHTML +=" (igen-nem)"; break; 
@@ -55,7 +55,7 @@ function newQuestion(type)
 
 function newChoose(type){
     var label = document.createElement("label");
-    label.innerHTML = "Kérdés:";
+    label.innerHTML = (counter+1)+". Kérdés:";
     var addButton = document.createElement("button");
     addButton.innerHTML = "+";
     addButton.onclick = () =>{
