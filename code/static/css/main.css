@@ -1,0 +1,42 @@
+
+body
+{
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 27%, rgba(29,253,220,1) 100%, rgba(69,252,179,1) 100%);
+}
+
+button
+{
+    border-radius: 20px;
+    border-bottom: none;
+    border-left: none;
+    border-top: none;
+    border-color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    background: rgb(255,255,255);
+    
+}
+
+.main
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#forms
+{
+    padding: 50px;
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#logoutdiv
+{
+    float: right;
+}
