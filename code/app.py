@@ -17,9 +17,26 @@ def back():
 @app.route('/logout')
 def logout():
     return redirect("/")
+
 @app.route('/create')
 def create():
     return render_template('create.html')
+
+@app.route('/save', methods=['POST','GET'])
+def save():
+    try:
+        db = getattr(g, '_database', None)
+        if db is None:
+            db = g._database = sql.connect('sample.db')
+        cursor = db.cursor()
+
+        
+    except:
+        return
+    finally:
+        for i in request.args.items():
+            print(i)
+        return render_template('create.html')
 
 @app.route('/add_user', methods=['POST'])
 def new_user():
