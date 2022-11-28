@@ -5,11 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Főoldal</title>
-    <form action="/create"><button>Create Questionnare</button></form>
-    <form action="/myQuestionnare"><button>My Questionnares</button></form>
-    <form action="/logout"><button>Logout</button></form>
+    <link rel="stylesheet" href="../static/css/main.css">
 </head>
 <body>
+    <div class="main">
+       <div id="forms">
+    <form action="/create"><button id="create">Create Questionnare</button></form>
+    <form action="/myQuestionnare"><button id="my">My Questionnares</button></form>
+    </div>  
+    <div id="logoutdiv">
+    <form action="/logout"><button id="logout">Logout</button></form>
+    </div>
+    </div>
     
 </body>
 </html>
