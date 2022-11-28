@@ -3,6 +3,7 @@ var yesnoButton;
 var scaleButton;
 var chooseButton;
 var chooseManyButton;
+var saveForm;
 var counter = 0;
 var questionList = [];
 
@@ -12,6 +13,7 @@ window.onload = (event) => {
     scaleButton = document.getElementById('scaleButton');
     chooseButton = document.getElementById('chooseButton');
     chooseManyButton = document.getElementById('chooseManyButton');
+    saveForm = document.getElementById("saveForm");
 
     textButton.addEventListener("click", function(){newQuestion("text")});
     yesnoButton.addEventListener("click", function(){newQuestion("yesno")});
@@ -27,7 +29,7 @@ function newQuestion(type)
     const newDiv = document.createElement("div");
     newDiv.classList.add("div-shadow");
     newDiv.setAttribute("id", "question_"+counter);
-    document.body.appendChild(newDiv);
+    saveForm.appendChild(newDiv);
     var label = document.createElement("label");
     label.innerHTML = (counter+1)+". Kérdés:";
     switch(type){
@@ -37,12 +39,14 @@ function newQuestion(type)
     }
     var question = document.createElement("input");
     question.setAttribute("type", "text");
+    question.setAttribute("name","question_"+counter+"_question")
     var deleteButton = document.createElement("button");
     deleteButton.innerHTML = "Törlés";
     deleteButton.onclick = () =>{
-        document.body.removeChild(newDiv);
+        saveForm.removeChild(newDiv);
         question.remove(newDiv);
     }
+    deleteButton.setAttribute("type","button")
     newDiv.appendChild(label);
     newDiv.appendChild(newBr());
     newDiv.appendChild(question);
@@ -54,24 +58,31 @@ function newQuestion(type)
 }
 
 function newChoose(type){
+    var optionCounter = 0;
+    var questionID = counter;
     var label = document.createElement("label");
     label.innerHTML = (counter+1)+". Kérdés:";
     var addButton = document.createElement("button");
     addButton.innerHTML = "+";
     addButton.onclick = () =>{
-        var newForm = document.createElement("form");
+        var newForm = document.createElement("div");
         var newOption = document.createElement("input");
         newOption.setAttribute("type","text");
+        newOption.setAttribute("name","question_"+questionID+"_option_"+optionCounter);
         var optionDel = document.createElement("button");
         optionDel.innerHTML = "-";
         optionDel.onclick = () => {
             newDiv.removeChild(newForm);
+            optionCounter--;
         }
+        optionDel.setAttribute("type","button");
         newForm.appendChild(newOption);
         newForm.appendChild(optionDel);
         newForm.appendChild(newBr());
         newDiv.appendChild(newForm);
+        optionCounter++;
     }
+    addButton.setAttribute("type","button");
     if(type == "choose"){
         label.innerHTML += " (választás)";
     }
@@ -82,17 +93,18 @@ function newChoose(type){
     const newDiv = document.createElement("div");
     newDiv.classList.add("div-shadow");
     newDiv.setAttribute("id", "question_"+counter);
-    document.body.appendChild(newDiv);
+    saveForm.appendChild(newDiv);
     
     var question = document.createElement("input");
     question.setAttribute("type", "text");
+    question.setAttribute("name","question_"+counter+"_question")
     var deleteButton = document.createElement("button");
     deleteButton.innerHTML = "Törlés";
     deleteButton.onclick = () =>{
-        document.body.removeChild(newDiv);
+        saveForm.removeChild(newDiv);
         question.remove(newDiv);
     }
-
+    deleteButton.setAttribute("type","button");
     newDiv.appendChild(label);
     newDiv.appendChild(newBr());
     newDiv.appendChild(question);
@@ -108,53 +120,4 @@ function newChoose(type){
 function newBr(){
     return document.createElement("br");
 }
-
-/*function newYesno()
-{
-    const newDiv = document.createElement("div");
-    newDiv.classList.add("div-shadow");
-    newDiv.setAttribute("id", "question_"+counter);
-    document.body.appendChild(newDiv);
-    var question = document.createElement("input");
-    question.setAttribute("type", "yesno");
-    var deleteButton = document.createElement("button");
-    deleteButton.innerHTML = "Törlés";
-    deleteButton.onclick = () =>{
-        document.body.removeChild(newDiv);
-        question.remove(newDiv);
-    }
-    newDiv.appendChild(question);
-    newDiv.appendChild(deleteButton);
-    newDiv.setAttribute("class", "text");
-    var newForm = document.createElement("form");
-    var yes = document.createElement("input");
-    yes.setAttribute("type","radio");
-    yes.setAttribute("name","question_"+counter);
-    yes.setAttribute("value","Igen");
-    yes.setAttribute("id","yes_"+counter);
-    var no = document.createElement("input");
-    no.setAttribute("type","radio");
-    no.setAttribute("name","question_"+counter);
-    no.setAttribute("value","Nem");
-    no.setAttribute("id","no_"+counter);
-
-    var yesLabel = document.createElement("label");
-    yesLabel.setAttribute("for","yes_"+counter);
-    yesLabel.innerHTML = "Igen";
-    var noLabel = document.createElement("label");
-    noLabel.setAttribute("for","no_"+counter);
-    noLabel.innerHTML = "No";
-    
-    newForm.appendChild(yes);
-    newForm.appendChild(yesLabel);
-    newForm.appendChild(br);
-    newForm.appendChild(no);
-    newForm.appendChild(noLabel);
-    newForm.appendChild(br);
-    newDiv.appendChild(newForm);
-
-    counter++;
-
-    questionList.push(newDiv);
-}*/
 
