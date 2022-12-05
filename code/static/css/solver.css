@@ -1,0 +1,48 @@
+body
+{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 27%, rgba(29,253,220,1) 100%, rgba(69,252,179,1) 100%);
+    align-items: center;
+    text-align: center;
+}
+
+#allF
+{
+    margin: auto
+}
+
+button
+{
+    border-radius: 20px;
+    border-bottom: none;
+    border-left: none;
+    border-top: none;
+    border-color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    background: rgb(255,255,255);
+    float: left;
+    
+}
+
+input
+{
+    border-radius: 20px;
+    border: none;
+    size: 40px;
+    background-color: aquamarine;
+    margin-bottom: 30px;
+}
+
+.kerdesek
+{
+    background-color: white;
+    border-radius: 30px;
+
+}
+
+#visszagomb
+{
+    width: 20%;
+}
