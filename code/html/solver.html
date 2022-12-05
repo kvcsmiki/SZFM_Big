@@ -8,10 +8,13 @@
     <title>Document</title>
 </head>
 <body>
+    <div id="visszagomb">
     <form action="/questionnaires"><button>Vissza</button></form>
-    <form action="/answer">
+    </div>
+    <form action="/answer", id="allF">
         <div>
             {% for question in questions%}
+                <div class="kerdesek">
                 <h1>{{question[0]+1}}. kérdés</h1>
                 <h2>{{question[1]}}</h2>
                 {% if question[3] == "text" %}
@@ -36,6 +39,7 @@
                         <label for="{{option}}_{{question[0]}}">{{option}}</label><br>
                     {% endfor %}
                 {% endif %}
+            </div>
             {% endfor %}
             <button type="submit">MENTÉS</button>
         </div>
