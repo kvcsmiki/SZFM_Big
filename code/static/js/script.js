@@ -39,7 +39,7 @@ function newQuestion(type)
     }
     var question = document.createElement("input");
     question.setAttribute("type", "text");
-    question.setAttribute("name","question_"+counter+"_question")
+    question.setAttribute("name","question_"+counter+"_question_"+type)
     var deleteButton = document.createElement("button");
     deleteButton.innerHTML = "Törlés";
     deleteButton.onclick = () =>{
@@ -97,7 +97,7 @@ function newChoose(type){
     
     var question = document.createElement("input");
     question.setAttribute("type", "text");
-    question.setAttribute("name","question_"+counter+"_question")
+    question.setAttribute("name","question_"+counter+"_question_"+type)
     var deleteButton = document.createElement("button");
     deleteButton.innerHTML = "Törlés";
     deleteButton.onclick = () =>{
@@ -121,10 +121,7 @@ function newBr(){
     return document.createElement("br");
 }
 
-
-
 function fu() {
     var opened = window.open("");
     opened.document.write("<html><head><title>MyTitle</title></head><body>test</body></html>");
-  }
-
+}
