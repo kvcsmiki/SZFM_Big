@@ -20,7 +20,7 @@
 | ----------- | ----------- | ----------- | ----------- |
 | F1 | Kijelentkezés | A kijelentkezés gombra kattintva kijelentkezünk | OK |
 | F2 | Create | A create gombra kattintva feljön a létrehozó felület | OK |
-| F3 | All | Az ALl Questionnaires gombra kattintva feljön a kérdőív választó felület | OK |
+| F3 | All | Az All Questionnaires gombra kattintva feljön a kérdőív választó felület | OK |
 
 ### Kérdőív létrehozás
 | ID | Név | Leírás | Megfelelés
