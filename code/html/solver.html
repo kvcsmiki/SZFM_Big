@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/answer">
+        <div>
+            {% for question in questions%}
+                <h1>{{question[0]+1}}. kérdés</h1>
+                <h2>{{question[1]}}</h2>
+                {% if question[3] == "text" %}
+                    <input type="text" name="{{question[0]}}">
+                {% elif question[3] == "yesno" %}
+                    <div>
+                        <input type="radio" id="yes_{{question[0]}}" name="{{question[0]}}" value="yes">
+                        <label for="yes_{{question[0]}}">IGEN</label><br>
+                        <input type="radio" id="no_{{question[0]}}" name="{{question[0]}}" value="no">
+                        <label for="no_{{question[0]}}">NEM</label><br>
+                    </div>
+                {% elif question[3] == "scale" %}
+                    <input type="range" name="{{question[0]}}" id="scale_{{question[0]}}" min="0" max="10">
+                {% elif question[3] == "choose" %}
+                    {% for option in question[4] %}
+                        <input type="radio" id="{{option}}_{{question[0]}}" name="{{question[0]}}" value="{{option}}">
+                        <label for="{{option}}_{{question[0]}}">{{option}}</label><br>
+                    {% endfor %}
+                {% elif question[3] == "chooseMany" %}
+                    {% for option in question[4] %}
+                        <input type="checkbox" id="{{option}}_{{question[0]}}" name="{{question[0]}}" value="{{option}}">
+                        <label for="{{option}}_{{question[0]}}">{{option}}</label><br>
+                    {% endfor %}
+                {% endif %}
+            {% endfor %}
+            <button type="submit">MENTÉS</button>
+        </div>
+    </form>
+</body>
+</html>
